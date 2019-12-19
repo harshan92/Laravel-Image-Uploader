@@ -9,7 +9,7 @@ class ImageController extends Controller
 {
     //
     public function resizeImage(){
-        return view('image_resize');
+        return view('resizeImage');
     }
     
     public function resizeImagePost(Request $request)
