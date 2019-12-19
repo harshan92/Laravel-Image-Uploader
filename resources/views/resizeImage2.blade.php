@@ -33,7 +33,7 @@
 <!--</div>-->
 @endif
    
-<Form action="{{route('resizeImagePost')}}" method="post" enctype="multipart/form-data">
+<Form action="{{route('resizeImagePost2')}}" method="post" enctype="multipart/form-data">
    @csrf
     <div class="row">
         <div class="col-md-4">

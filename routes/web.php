@@ -16,7 +16,9 @@ Route::get('/', function () {
 });
 
 Route::get('resizeImage', 'ImageController@resizeImage');
+Route::get('resizeImage2', 'ImageController@resizeImage2');
 Route::post('resizeImagePost', 'ImageController@resizeImagePost')->name('resizeImagePost');
+Route::post('resizeImagePost', 'ImageController@resizeAndWatermakingImagePost')->name('resizeImagePost2');
 
 Auth::routes();
 
